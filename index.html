@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhigiri Enterprises | Portfolio</title>
+    <!-- <link rel="stylesheet" href="styledemo.css"> -->
+    <link rel="stylesheet" href="style1.css"> 
+    <link rel="stylesheet" href="style2.css"> 
+    <link rel="stylesheet" href="style3.css"> 
+    <link rel="stylesheet" href="style4.css"> 
+    <link rel="stylesheet" href="style5.css"> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+     <!-- Add Font Awesome Library -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="silogo.jpg" alt="Siddhigiri Enterprises Logo" class="responsive-logo">
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Welcome to Siddhigiri Enterprises</h1>
+            <p>Fastest Service in India for Bearings, Oil Seals, and Hardware</p>
+            <a href="#products" class="hero-btn">Explore Our Products</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+
+    <div id="about">
+        <div class="image-container">
+            <img src="silogo.jpg" alt="About Image">
+        </div>
+        <div class="text-container">
+            <h2>About Us</h2>
+            <h3><i class="fas fa-cogs"></i> Welcome to Our Hardware World</h3>
+            <p>Siddhigiri Enterprises is a leading B2B supplier of bearings, oil seals, and hardware with over 3 decades of experience. Our mission is to provide the fastest service in India, delivering top-quality products to our clients in automotive and industrial machinery sectors.</p>
+            <p>We provide high-quality hardware supplies for your needs. Our expertise ensures the best products for your business.</p>
+            <div class="icons">
+                <!-- Example icons, you can replace these with real ones -->
+                <i class="fas fa-cogs"></i>
+                <i class="fas fa-tools"></i>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-cards">
+            <div class="card">
+                <img src="oil-seals.jpg" alt="Oil Seals"> <!-- Use actual product images -->
+                <h3>Oil Seals</h3>
+                <p>Reliable Oil Seals in multiple sizes, offering excellent sealing capabilities for industrial applications.</p>
+            </div>
+            <div class="card">
+                <img src="chain.jpg" alt="Chains"> <!-- Use actual product images -->
+                <h3>Industrial Chains</h3>
+                <p>Durable, high-strength chains for heavy-duty industrial use.</p>
+            </div>
+            <div class="card">
+                <img src="bearings.jpg" alt="Bearings"> <!-- Use actual product images -->
+                <h3>Bearings</h3>
+                <p>High-performance bearings, precise and durable for automotive and machinery.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+   <section id="why-us" style="padding: 80px 20px; background: linear-gradient(to right, #333, #444  ); color: white; text-align: center;">
+        <h2 style="font-size: 2.5em; color: #FFCC33; margin-bottom: 20px;">Why Choose Us?</h2>
+        <div style="display: flex; justify-content: center; gap: 20px;">
+            <!-- Card 1 -->
+            <div style="background: #222; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px gold;">
+                <i class="fas fa-trophy" style="color: #FFA500; font-size: 2em; margin-bottom: 10px;"></i>
+                <h3 style="margin: 10px 0; font-size: 1.5em;">3 Decades of Excellence</h3>
+            </div>
+            <!-- Card 2 -->
+            <div style="background: #222; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px gold;">
+                <i class="fas fa-cogs" style="color: #FFA500; font-size: 2em; margin-bottom: 10px;"></i>
+                <h3 style="margin: 10px 0; font-size: 1.5em;">Top Quality Products</h3>
+            </div>
+            <!-- Card 3 -->
+            <div style="background: #222; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px gold;">
+                <i class="fas fa-truck" style="color: #FFA500; font-size: 2em; margin-bottom: 10px;"></i>
+                <h3 style="margin: 10px 0; font-size: 1.5em;">Fast and Reliable Service</h3>
+            </div>
+        </div>
+    </section> 
+    
+        <!-- Contact Info Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need more information, feel free to reach out!</p>
+        
+        <div class="contact-details">
+            <div>
+                <i class="fas fa-phone-alt"></i>
+                <p>Phone: 9820866619 / 8108555707</p>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <p>Email: siddhgirienterprises986@gmail.com</p>
+            </div>
+        </div>
+        <a href="mailto:siddhgirienterprises986@gmail.com" class="contact-btn">Contact Us</a>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Siddhigiri Enterprises. All Rights Reserved.</p>
+    </footer>
+     <!-- JavaScript for Hamburger Menu -->
+     <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
